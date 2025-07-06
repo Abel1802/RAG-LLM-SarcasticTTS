@@ -176,9 +176,11 @@ SHELDON#1_10190_u -->
 <style>
   table {
     width: 100%;
+    max-width: 1400px;
     border-collapse: collapse;
     margin-top: 1em;
     font-family: Arial, sans-serif;
+    table-layout: fixed; /* 让列宽固定 */
   }
 
   th, td {
@@ -195,13 +197,16 @@ SHELDON#1_10190_u -->
   td:first-child {
     text-align: left;
     font-weight: 500;
-    max-width: 300px;
+    width: 300px; /* 设置更宽的第一列 */
+    word-wrap: break-word; /* 强制换行 */
+    white-space: normal;   /* 避免不换行 */
   }
 
   audio {
     width: 200px;
   }
 </style>
+
 
 
 <h3>Speaker: AMY</h3>
@@ -229,10 +234,10 @@ SHELDON#1_10190_u -->
       <td>Fine, I guess. I've been focusing on me.</td>
       <td><audio src="synthesized/gt/AMY_1_S09E03_143_u.wav" controls preload></audio></td>
       <td><audio src="synthesized/vits/AMY_1_S09E03_143_u.wav" controls preload></audio></td>
-      <td><audio src="synthesized/bert/AMY_1_S09E03_143_u.wav" controls preload></audio></td>
-      <td><audio src="synthesized/llama/AMY_1_S09E03_143_u.wav" controls preload></audio></td>
-      <td><audio src="synthesized/lora_llama/AMY_1_S09E03_143_u.wav" controls preload></audio></td>
-      <td><audio src="synthesized/lora_llama_rag/AMY_1_S09E03_143_u.wav" controls preload></audio></td>
+      <td><audio src="synthesized/vits_bert/AMY_1_S09E03_143_u.wav" controls preload></audio></td>
+      <td><audio src="synthesized/vits_llama/AMY_1_S09E03_143_u.wav" controls preload></audio></td>
+      <td><audio src="synthesized/vits_lora/AMY_1_S09E03_143_u.wav" controls preload></audio></td>
+      <td><audio src="synthesized/vits_lora_rag/AMY_1_S09E03_143_u.wav" controls preload></audio></td>
     </tr>
     <tr>
       <td>Well, Sheldon, I really appreciate that, but these things mean more to you than they do to me, so whatever you want.</td>
