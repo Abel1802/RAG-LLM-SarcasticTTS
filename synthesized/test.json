@@ -1,0 +1,992 @@
+[
+    {
+        "Dataset": "mstdpp",
+        "Singer": "PENNY",
+        "Uid": "PENNY#1_S11E05_370_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/PENNY/1_S11E05_370_u.wav",
+        "Text": "Leonard, what are you doing?",
+        "Duration": 1.031,
+        "index": 42
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "HOWARD",
+        "Uid": "HOWARD#1_S12E02_118_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/HOWARD/1_S12E02_118_u.wav",
+        "Text": "Is she into you or does she just hate her parents?",
+        "Duration": 1.1683541666666666,
+        "index": 22
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "PENNY",
+        "Uid": "PENNY#1_S10E18_423_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/PENNY/1_S10E18_423_u.wav",
+        "Text": "More reasons for you to stay.",
+        "Duration": 1.4218125,
+        "index": 11
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "CHANDLER",
+        "Uid": "CHANDLER#2_434_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/CHANDLER/2_434_u.wav",
+        "Text": "We can? Ok I am trying that.",
+        "Duration": 1.52,
+        "index": 27
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "CHANDLER",
+        "Uid": "CHANDLER#2_186_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/CHANDLER/2_186_u.wav",
+        "Text": "Excellent hole, Joe.",
+        "Duration": 1.5556875,
+        "index": 1
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "RACHEL",
+        "Uid": "RACHEL#2_467_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/RACHEL/2_467_u.wav",
+        "Text": "That is the coast guard!",
+        "Duration": 1.6,
+        "index": 32
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "CHANDLER",
+        "Uid": "CHANDLER#2_301_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/CHANDLER/2_301_u.wav",
+        "Text": "Hey, do you know a six-letter word for red?",
+        "Duration": 1.636,
+        "index": 31
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "HOWARD",
+        "Uid": "HOWARD#1_S12E07_005_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/HOWARD/1_S12E07_005_u.wav",
+        "Text": "I'm gonna hook up the garden hose, so it has running water.",
+        "Duration": 1.6957291666666667,
+        "index": 13
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "CHANDLER",
+        "Uid": "CHANDLER#2_547_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/CHANDLER/2_547_u.wav",
+        "Text": "Okay, now much have you won so far?",
+        "Duration": 1.725,
+        "index": 54
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "ERLICH",
+        "Uid": "ERLICH#3_S01E06_266_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/ERLICH/3_S01E06_266_u.wav",
+        "Text": "She's attracted to ugliness.",
+        "Duration": 1.7629931972789115,
+        "index": 40
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "RAJ",
+        "Uid": "RAJ#1_S11E19_030_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/RAJ/1_S11E19_030_u.wav",
+        "Text": "Except for you, Sheldon. You're eating crow.",
+        "Duration": 1.944,
+        "index": 29
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "CHANDLER",
+        "Uid": "CHANDLER#2_443_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/CHANDLER/2_443_u.wav",
+        "Text": "Dear god, this parachute is a knapsack",
+        "Duration": 2.2187755102040816,
+        "index": 36
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "PENNY",
+        "Uid": "PENNY#1_S12E01_332_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/PENNY/1_S12E01_332_u.wav",
+        "Text": "Oh, please, you're just the right amount of bearing.",
+        "Duration": 2.234,
+        "index": 33
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "CHANDLER",
+        "Uid": "CHANDLER#2_438_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/CHANDLER/2_438_u.wav",
+        "Text": "Really? Struck down in the prime of life.",
+        "Duration": 2.2368707482993195,
+        "index": 49
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "RAJ",
+        "Uid": "RAJ#1_S12E21_261_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/RAJ/1_S12E21_261_u.wav",
+        "Text": "Other than Bernadette? That does not sound right.",
+        "Duration": 2.2572916666666667,
+        "index": 52
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "HOWARD",
+        "Uid": "HOWARD#1_S11E19_143_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/HOWARD/1_S11E19_143_u.wav",
+        "Text": "The drone or your stupid robot show",
+        "Duration": 2.262,
+        "index": 21
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "HOWARD",
+        "Uid": "HOWARD#1_S11E08_142_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/HOWARD/1_S11E08_142_u.wav",
+        "Text": "Great. I want answers and he'd better give them to us.",
+        "Duration": 2.404,
+        "index": 53
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "LEONARD",
+        "Uid": "LEONARD#1_S12E07_060_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/LEONARD/1_S12E07_060_u.wav",
+        "Text": "You sound like my wife just before she asked me to go to Coachella.",
+        "Duration": 2.58,
+        "index": 8
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "MONICA",
+        "Uid": "MONICA#2_28_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/MONICA/2_28_u.wav",
+        "Text": "Carol called me to thank me for the lasagna, I asked, she told me.",
+        "Duration": 2.634,
+        "index": 45
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "ROSS",
+        "Uid": "ROSS#2_484_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/ROSS/2_484_u.wav",
+        "Text": "Yes yes it is! In Prison!!",
+        "Duration": 2.661655328798186,
+        "index": 30
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "CHANDLER",
+        "Uid": "CHANDLER#2_488_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/CHANDLER/2_488_u.wav",
+        "Text": "Just a sec, give me a minute to wake up for this,Ah-ha-ha!!",
+        "Duration": 2.676,
+        "index": 15
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "SHELDON",
+        "Uid": "SHELDON#1_536_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/SHELDON/1_536_u.wav",
+        "Text": "Just the latest copy of Applied Particle Physics quarterly.",
+        "Duration": 2.7614791666666667,
+        "index": 20
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "SHELDON",
+        "Uid": "SHELDON#1_6534_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/SHELDON/1_6534_u.wav",
+        "Text": "No, but maybe she wants a man with a pocket watch.",
+        "Duration": 2.797458333333333,
+        "index": 39
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "AMY",
+        "Uid": "AMY#1_S09E03_143_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/AMY/1_S09E03_143_u.wav",
+        "Text": "Fine, I guess. I've been focusing on me.",
+        "Duration": 2.9,
+        "index": 10
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "DOROTHY",
+        "Uid": "DOROTHY#2_604_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/DOROTHY/2_604_u.wav",
+        "Text": "No Rose, I am developing pictures from the magellan space probe",
+        "Duration": 3.2359863945578233,
+        "index": 41
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "HOWARD",
+        "Uid": "HOWARD#1_S11E06_410_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/HOWARD/1_S11E06_410_u.wav",
+        "Text": "You were a terrible waitress, and we still asked you to get us a snack.",
+        "Duration": 3.253,
+        "index": 35
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "CHANDLER",
+        "Uid": "CHANDLER#2_258_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/CHANDLER/2_258_u.wav",
+        "Text": "I am telling you, when she leaned back, I could see her brain",
+        "Duration": 3.2670975056689344,
+        "index": 19
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "PERSON",
+        "Uid": "PERSON#1_4789_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/PERSON/1_4789_u.wav",
+        "Text": "I don't know. Somebody bigger and... Yeah, sure. Why not you?",
+        "Duration": 3.2952708333333334,
+        "index": 46
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "PENNY",
+        "Uid": "PENNY#1_11697_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/PENNY/1_11697_u.wav",
+        "Text": "The answer's in this puzzle box. Let's see if you can open it.",
+        "Duration": 3.33,
+        "index": 12
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "PHOEBE",
+        "Uid": "PHOEBE#2_154_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/PHOEBE/2_154_u.wav",
+        "Text": "Okay, does this look like a garbage can to you?",
+        "Duration": 3.4221875,
+        "index": 38
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "OTHER",
+        "Uid": "OTHER#3_S01E02_461_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/OTHER/3_S01E02_461_u.wav",
+        "Text": "I was sleeping. I'm sorry for sleeping and for lying about it.",
+        "Duration": 3.5209750566893425,
+        "index": 2
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "HOWARD",
+        "Uid": "HOWARD#1_S10E08_140_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/HOWARD/1_S10E08_140_u.wav",
+        "Text": "No, she's right. As long as I've known you, you've always been self-conscious",
+        "Duration": 3.57,
+        "index": 6
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "LEONARD",
+        "Uid": "LEONARD#1_8159_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/LEONARD/1_8159_u.wav",
+        "Text": "And I'm cool with surprises. But nothing on a Jumbotron. I don't want to cry on a big screen like that.",
+        "Duration": 3.597,
+        "index": 25
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "PENNY",
+        "Uid": "PENNY#1_S09E01_027_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/PENNY/1_S09E01_027_u.wav",
+        "Text": "Whatever. Put us on the Internet. I've always wanted a wedding with a comment section.",
+        "Duration": 3.701,
+        "index": 4
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "SHELDON",
+        "Uid": "SHELDON#1_9668_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/SHELDON/1_9668_u.wav",
+        "Text": "People usually start a meeting with a joke, but you go ahead-- end with one.",
+        "Duration": 3.722166666666667,
+        "index": 7
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "CHANDLER",
+        "Uid": "CHANDLER#2_392_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/CHANDLER/2_392_u.wav",
+        "Text": "Ah you see perfect might be a problem. Had you said co-dependent or self-destructive.",
+        "Duration": 3.973333333333333,
+        "index": 5
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "AMY",
+        "Uid": "AMY#1_S10E04_238_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/AMY/1_S10E04_238_u.wav",
+        "Text": "Well, Sheldon, I really appreciate that, but these things mean more to you than they do to me, so whatever you want.",
+        "Duration": 4.339,
+        "index": 18
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "CHANDLER",
+        "Uid": "CHANDLER#2_114_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/CHANDLER/2_114_u.wav",
+        "Text": "Spanish midgets wrestling Julie! Okay yes I see how they got there.",
+        "Duration": 4.414195011337869,
+        "index": 34
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "JOEY",
+        "Uid": "JOEY#2_426_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/JOEY/2_426_u.wav",
+        "Text": "Are you kidding? I love that guy!  Morning's here! Morning is here,",
+        "Duration": 4.4341875,
+        "index": 16
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "PENNY",
+        "Uid": "PENNY#1_S11E01_400_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/PENNY/1_S11E01_400_u.wav",
+        "Text": "Well, Bernadette has to grow a baby inside of her, and Amy has to marry one. My life is great.",
+        "Duration": 4.534,
+        "index": 50
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "ERLICH",
+        "Uid": "ERLICH#3_S01E04_342_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/ERLICH/3_S01E04_342_u.wav",
+        "Text": "For which I forewent, yes, that's a real word, one million dollars.",
+        "Duration": 4.806984126984127,
+        "index": 44
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "PERSON",
+        "Uid": "PERSON#1_1732_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/PERSON/1_1732_u.wav",
+        "Text": "You were right. Your larynx is terribly inflamed. I've never seen anything like it.",
+        "Duration": 4.872375,
+        "index": 23
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "HOWARD",
+        "Uid": "HOWARD#1_S10E09_081_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/HOWARD/1_S10E09_081_u.wav",
+        "Text": "Say hello to everybody's little friend-- remote control Stephen Hawking!",
+        "Duration": 4.973,
+        "index": 28
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "SHELDON",
+        "Uid": "SHELDON#1_1144_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/SHELDON/1_1144_u.wav",
+        "Text": "Notify the editors of the Oxford English Dictionary. The word \"plenty\" has been redefined to mean \"two.\"",
+        "Duration": 5.042,
+        "index": 24
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "CHANDLER",
+        "Uid": "CHANDLER#2_2_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/CHANDLER/2_2_u.wav",
+        "Text": "ThatÕs a good one too Pheebs, now all that I have to do is find a plane load of people whose resolution is to plummet to their deaths",
+        "Duration": 5.560975056689342,
+        "index": 0
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "SHELDON",
+        "Uid": "SHELDON#1_10829_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/SHELDON/1_10829_u.wav",
+        "Text": "On the bright side, that Oxford study was right. One friend down. I wonder who you're going to lose next.",
+        "Duration": 5.801770833333333,
+        "index": 51
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "SHELDON",
+        "Uid": "SHELDON#1_S09E04_382_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/SHELDON/1_S09E04_382_u.wav",
+        "Text": "How can you say that? Amy's gone, and you two are married now, so it's only a matter of time before you're gone, too.",
+        "Duration": 5.880333333333334,
+        "index": 37
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "SHELDON",
+        "Uid": "SHELDON#1_2423_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/SHELDON/1_2423_u.wav",
+        "Text": "Provided he has already read and is familiar with the reestablishment of the DC multiverse.",
+        "Duration": 5.99925,
+        "index": 47
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "HOWARD",
+        "Uid": "HOWARD#1_1478_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/HOWARD/1_1478_u.wav",
+        "Text": "Sadly, Mrs. Giselle Wolowitz is sensitive to chlorine. Lucky for her I like my fashion models pruny and bug-eyed.",
+        "Duration": 6.463479166666667,
+        "index": 43
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "CHANDLER",
+        "Uid": "CHANDLER#2_511_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/CHANDLER/2_511_u.wav",
+        "Text": "You said you spent all that money because those boots go with skirts, dresses and pants. What do you plan on wearing? A Chicken suit?",
+        "Duration": 6.602993197278912,
+        "index": 17
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "HOWARD",
+        "Uid": "HOWARD#1_7641_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/HOWARD/1_7641_u.wav",
+        "Text": "She was just so sad all the time. Yeah, I was the only person who could cheer her up. Well, me and Ben and Jerry.",
+        "Duration": 7.353,
+        "index": 9
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "MODERATOR",
+        "Uid": "MODERATOR#2_306_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/MODERATOR/2_306_u.wav",
+        "Text": "No, no no, I just mediate the gorup. I just give up every Tuesday of my life to help these screwups for the good of my health",
+        "Duration": 8.233968253968253,
+        "index": 26
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "SHELDON",
+        "Uid": "SHELDON#1_10496_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/SHELDON/1_10496_u.wav",
+        "Text": "- You and... Oh, sure. And while we're at it, why don't we get engaged, too? Why don't we get a little house, start a family? Enjoy our sunset years together? Do you hear yourself, woman?!",
+        "Duration": 8.933541666666667,
+        "index": 14
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "SHELDON",
+        "Uid": "SHELDON#1_10190_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/SHELDON/1_10190_u.wav",
+        "Text": "Well, now that I've given up string theory, I'm struggling to find my next area of focus. So, in your professional opinion, which of these areas do you think is the most promising?",
+        "Duration": 8.977375,
+        "index": 48
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "SHELDON",
+        "Uid": "SHELDON#1_11236_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/SHELDON/1_11236_u.wav",
+        "Text": "Oh, you're hardly out of the woods, no. You still run the risk of infection, a blood clot, the possibility that an inattentive surgeon let a barn spider lay eggs in your nose.",
+        "Duration": 10.486104166666667,
+        "index": 3
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "ROSS",
+        "Uid": "ROSS#2_339_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/ROSS/2_339_u.wav",
+        "Text": "Thank you.",
+        "Duration": 1.01,
+        "index": 8
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "ROSS",
+        "Uid": "ROSS#2_397_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/ROSS/2_397_u.wav",
+        "Text": "You still love me?",
+        "Duration": 1.024,
+        "index": 53
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "PHOEBE",
+        "Uid": "PHOEBE#2_534_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/PHOEBE/2_534_u.wav",
+        "Text": "Oh, come on!",
+        "Duration": 1.045,
+        "index": 0
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "SHELDON",
+        "Uid": "SHELDON#1_S11E08_428_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/SHELDON/1_S11E08_428_u.wav",
+        "Text": "Well, that doesn't help at all.",
+        "Duration": 1.073,
+        "index": 10
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "CHANDLER",
+        "Uid": "CHANDLER#2_409_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/CHANDLER/2_409_u.wav",
+        "Text": "I'll catch you guys later.",
+        "Duration": 1.089501133786848,
+        "index": 45
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "PENNY",
+        "Uid": "PENNY#1_5617_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/PENNY/1_5617_u.wav",
+        "Text": "Thanks for clearing that up",
+        "Duration": 1.0929583333333333,
+        "index": 28
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "CHANDLER",
+        "Uid": "CHANDLER#2_235_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/CHANDLER/2_235_u.wav",
+        "Text": "You can't make this stuff up!",
+        "Duration": 1.2304308390022676,
+        "index": 54
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "DOROTHY",
+        "Uid": "DOROTHY#2_129_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/DOROTHY/2_129_u.wav",
+        "Text": "What are these? Claws?",
+        "Duration": 1.4224943310657596,
+        "index": 24
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "JOEY",
+        "Uid": "JOEY#2_8_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/JOEY/2_8_u.wav",
+        "Text": "It's white plastic, with a handle, and it fits onto a stroller.",
+        "Duration": 1.429,
+        "index": 33
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "PENNY",
+        "Uid": "PENNY#1_S12E15_013_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/PENNY/1_S12E15_013_u.wav",
+        "Text": "Yeah, and we don't find it weird at all.",
+        "Duration": 1.468,
+        "index": 34
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "AMY",
+        "Uid": "AMY#1_S11E01_100_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/AMY/1_S11E01_100_u.wav",
+        "Text": "Okay, you can stop leading with that part of the story.",
+        "Duration": 1.47,
+        "index": 1
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "GILFOYLE",
+        "Uid": "GILFOYLE#3_S03E03_126_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/GILFOYLE/3_S03E03_126_u.wav",
+        "Text": "But instead of that, you bought a chain?",
+        "Duration": 1.548,
+        "index": 47
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "HOWARD",
+        "Uid": "HOWARD#1_S10E18_323_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/HOWARD/1_S10E18_323_u.wav",
+        "Text": "(sighs) I'll say it again. India.",
+        "Duration": 1.5776666666666668,
+        "index": 15
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "RACHEL",
+        "Uid": "RACHEL#2_97_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/RACHEL/2_97_u.wav",
+        "Text": "It would be nice to have a little guarantee though.",
+        "Duration": 1.685,
+        "index": 3
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "HOWARD",
+        "Uid": "HOWARD#1_S12E12_043_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/HOWARD/1_S12E12_043_u.wav",
+        "Text": "I open the door and say, \"Hey, Raj.\"",
+        "Duration": 1.778,
+        "index": 40
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "ROSS",
+        "Uid": "ROSS#2_358_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/ROSS/2_358_u.wav",
+        "Text": "I do not always have to be,okay, okay.",
+        "Duration": 1.805625,
+        "index": 19
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "AMY",
+        "Uid": "AMY#1_S12E16_140_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/AMY/1_S12E16_140_u.wav",
+        "Text": "Oh, no, this is the rest of our lives.",
+        "Duration": 1.855,
+        "index": 5
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "STUART",
+        "Uid": "STUART#1_S11E10_337_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/STUART/1_S11E10_337_u.wav",
+        "Text": "Wow, this conversation got mean fast.",
+        "Duration": 1.88,
+        "index": 4
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "LEONARD",
+        "Uid": "LEONARD#1_S11E12_279_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/LEONARD/1_S11E12_279_u.wav",
+        "Text": "Yeah, did Sheldon send it to you?",
+        "Duration": 1.9265,
+        "index": 50
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "HOWARD",
+        "Uid": "HOWARD#1_S12E22_066_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/HOWARD/1_S12E22_066_u.wav",
+        "Text": "Apparently, a guy who wants to have his feelings hurt.",
+        "Duration": 1.931,
+        "index": 18
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "DOROTHY",
+        "Uid": "DOROTHY#2_74_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/DOROTHY/2_74_u.wav",
+        "Text": "Show them your slides of Hawaii",
+        "Duration": 1.958344671201814,
+        "index": 26
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "MEMBER-BOY",
+        "Uid": "MEMBER-BOY#2_596_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/MEMBER-BOY/2_596_u.wav",
+        "Text": "Noooo. Really?",
+        "Duration": 2.040997732426304,
+        "index": 27
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "LEONARD",
+        "Uid": "LEONARD#1_S12E06_412_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/LEONARD/1_S12E06_412_u.wav",
+        "Text": "That's what you said about the butterfly pavilion at the zoo.",
+        "Duration": 2.316,
+        "index": 6
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "RAJ",
+        "Uid": "RAJ#1_S12E03_410_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/RAJ/1_S12E03_410_u.wav",
+        "Text": "Oh. We can'’t use that. That was the theme of my parents'’ divorce.",
+        "Duration": 2.344,
+        "index": 35
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "PENNY",
+        "Uid": "PENNY#1_S10E02_123_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/PENNY/1_S10E02_123_u.wav",
+        "Text": "Oh, my God, it was me, it was me! I'm the one who blabbed she was pregnant!",
+        "Duration": 2.419,
+        "index": 13
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "RACHEL",
+        "Uid": "RACHEL#2_79_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/RACHEL/2_79_u.wav",
+        "Text": "I'm just gonna throw it out, it's probably just a bunch of shampoo and...",
+        "Duration": 2.45,
+        "index": 51
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "PENNY",
+        "Uid": "PENNY#1_S10E07_247_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/PENNY/1_S10E07_247_u.wav",
+        "Text": "Uh, she's enjoyed living with you. It's called being in love.",
+        "Duration": 2.508,
+        "index": 12
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "ROSS",
+        "Uid": "ROSS#2_173_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/ROSS/2_173_u.wav",
+        "Text": "We- we had our first fight this morning.",
+        "Duration": 2.56,
+        "index": 7
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "PENNY",
+        "Uid": "PENNY#1_S10E09_066_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/PENNY/1_S10E09_066_u.wav",
+        "Text": "You know what, I've met Bert. Isn't he an indicator of life on other planets?",
+        "Duration": 2.5890833333333334,
+        "index": 48
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "HOWARD",
+        "Uid": "HOWARD#1_11243_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/HOWARD/1_11243_u.wav",
+        "Text": "I love that you're too good to pee in the kitchen sink.",
+        "Duration": 2.597,
+        "index": 36
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "CHANDLER",
+        "Uid": "CHANDLER#2_310_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/CHANDLER/2_310_u.wav",
+        "Text": "Well thank God your livelihood doesn't depend on it.",
+        "Duration": 2.6809977324263037,
+        "index": 49
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "CHANDLER",
+        "Uid": "CHANDLER#2_109_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/CHANDLER/2_109_u.wav",
+        "Text": "I thought if I littered, that crying Indian might come by and save us.",
+        "Duration": 2.9259863945578233,
+        "index": 46
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "PENNY",
+        "Uid": "PENNY#1_12331_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/PENNY/1_12331_u.wav",
+        "Text": "Wow, there's a Denny's in Vegas you can actually get married in.",
+        "Duration": 2.9453541666666667,
+        "index": 2
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "PERSON",
+        "Uid": "PERSON#1_4477_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/PERSON/1_4477_u.wav",
+        "Text": "I just want to ask you a few questions about Howard Wolowitz.",
+        "Duration": 3.187125,
+        "index": 17
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "HOWARD",
+        "Uid": "HOWARD#1_S11E04_347_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/HOWARD/1_S11E04_347_u.wav",
+        "Text": "What about people distracted by irritating passengers?",
+        "Duration": 3.252,
+        "index": 32
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "PHOEBE",
+        "Uid": "PHOEBE#2_257_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/PHOEBE/2_257_u.wav",
+        "Text": "Oh, hey, look, I found coffee! Okay, let's skedaddle.",
+        "Duration": 3.283,
+        "index": 25
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "PERSON",
+        "Uid": "PERSON#1_3256_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/PERSON/1_3256_u.wav",
+        "Text": "I'm sorry, fiddling with yourself in the bathtub is a real class act.",
+        "Duration": 3.4103125,
+        "index": 44
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "RAJ",
+        "Uid": "RAJ#1_8505_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/RAJ/1_8505_u.wav",
+        "Text": "A lane frequented by liars. Like you, you big liar!",
+        "Duration": 3.437666666666667,
+        "index": 11
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "CHANDLER",
+        "Uid": "CHANDLER#2_226_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/CHANDLER/2_226_u.wav",
+        "Text": "These people find out that a spelling game is going over there, there will be nobody left at our party.",
+        "Duration": 3.516780045351474,
+        "index": 38
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "CHANDLER",
+        "Uid": "CHANDLER#2_15_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/CHANDLER/2_15_u.wav",
+        "Text": "I'm sorry man there is never a good time to have to .. Stop catching on fire.",
+        "Duration": 3.563582766439909,
+        "index": 9
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "LEONARD",
+        "Uid": "LEONARD#1_2075_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/LEONARD/1_2075_u.wav",
+        "Text": "There's no hurry. Tell them more about their secret love for each other.",
+        "Duration": 3.588,
+        "index": 39
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "RAJ",
+        "Uid": "RAJ#1_S09E05_222_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/RAJ/1_S09E05_222_u.wav",
+        "Text": "Whoa! Walking up to a strange woman in a bar usually doesn't work.",
+        "Duration": 3.6063125,
+        "index": 16
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "PHOEBE",
+        "Uid": "PHOEBE#2_560_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/PHOEBE/2_560_u.wav",
+        "Text": "So now I have to go so he'll think that I'm totally ok with seeing him!",
+        "Duration": 3.84,
+        "index": 21
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "SHELDON",
+        "Uid": "SHELDON#1_2797_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/SHELDON/1_2797_u.wav",
+        "Text": "It's an iCal download. She can put it right in her phone.",
+        "Duration": 3.8535625,
+        "index": 20
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "DOROTHY",
+        "Uid": "DOROTHY#2_126_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/DOROTHY/2_126_u.wav",
+        "Text": "No I am upset because Joe Piscapo didn't get the lead role in rain man.",
+        "Duration": 3.980748299319728,
+        "index": 31
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "SHELDON",
+        "Uid": "SHELDON#1_4352_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/SHELDON/1_4352_u.wav",
+        "Text": "He does it all the time. He's a cornucopia of social awkwardness.",
+        "Duration": 4.130833333333333,
+        "index": 41
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "RAJ",
+        "Uid": "RAJ#1_10857_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/RAJ/1_10857_u.wav",
+        "Text": "It's true-- you're both gorgeous. Kind of says something about the man who could bed you both.",
+        "Duration": 4.414,
+        "index": 23
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "HOWARD",
+        "Uid": "HOWARD#1_S09E21_255_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/HOWARD/1_S09E21_255_u.wav",
+        "Text": "Interesting. Maybe my male cycle synced up with raj's actual period.",
+        "Duration": 4.435,
+        "index": 30
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "HOWARD",
+        "Uid": "HOWARD#1_1296_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/HOWARD/1_1296_u.wav",
+        "Text": "They gave him an assistant? If I want a new pen, I have to go to the bank with wire cutters.",
+        "Duration": 4.579354166666667,
+        "index": 29
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "LEONARD",
+        "Uid": "LEONARD#1_S12E23_470_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/LEONARD/1_S12E23_470_u.wav",
+        "Text": "This might be the glue talking, but that was a very pleasurable 139 and a half hours.",
+        "Duration": 4.684,
+        "index": 22
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "LEONARD",
+        "Uid": "LEONARD#1_S11E08_005_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/LEONARD/1_S11E08_005_u.wav",
+        "Text": "Well, according to his text, he was on the second floor, then he stopped to tie his shoe.",
+        "Duration": 4.732,
+        "index": 14
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "SHELDON",
+        "Uid": "SHELDON#1_3293_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/SHELDON/1_3293_u.wav",
+        "Text": "Leonard's work is nearly as amazing as third graders growing lima beans in wet paper towels.",
+        "Duration": 5.163125,
+        "index": 43
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "SHELDON",
+        "Uid": "SHELDON#1_6165_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/SHELDON/1_6165_u.wav",
+        "Text": "Yes, there's nothing quite like the slightly widened eyes of mildly startled.",
+        "Duration": 5.559270833333334,
+        "index": 52
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "BERNADETTE",
+        "Uid": "BERNADETTE#1_S09E12_184_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/BERNADETTE/1_S09E12_184_u.wav",
+        "Text": "(CHUCKLES) Yeah. A grown man moving into his own apartment. It's crazy times. See ya!",
+        "Duration": 5.743,
+        "index": 42
+    },
+    {
+        "Dataset": "mstdpp",
+        "Singer": "SHELDON",
+        "Uid": "SHELDON#1_8407_u",
+        "Path": "/projects/0/prjs0864/tts/raw_data/mustard_plus_plus/mstdpp_v2/SHELDON/1_8407_u.wav",
+        "Text": "Oh, sure, what a wonderful idea. And after that, I'll make up my own rules of oral hygiene. You know, instead of flossing, I'll rub pudding on my gums. I'm going to get the number of the SyFy Channel and give them what for.",
+        "Duration": 11.699,
+        "index": 37
+    }
+]

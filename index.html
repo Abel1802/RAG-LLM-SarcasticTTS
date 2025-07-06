@@ -22,7 +22,7 @@
     </section>
 
     <section class="main-content">
-      <h1 id=""><center>Integrating Feedback Loss from Bi-modal Sarcasm Detector for Sarcastic Speech Synthesis</center></h1>
+      <h1 id=""><center>RAG-LLM Enhanced Sarcastic Speech Synthesis</center></h1>
       <!-- <h1 id=""><center> Evaluation </center></h1> -->
       
 
@@ -32,7 +32,59 @@
 <!-- <center> University of Groningen, Groningen, the Netherlands</center> -->
 <!-- <br> -->
 
-
+<!-- AMY#1_S09E03_143_u
+AMY#1_S10E04_238_u
+AMY#1_S11E01_100_u
+AMY#1_S12E16_140_u
+CHANDLER#2_2_u
+CHANDLER#2_15_u
+CHANDLER#2_109_u
+CHANDLER#2_114_u
+CHANDLER#2_226_u
+CHANDLER#2_438_u
+CHANDLER#2_511_u
+DOROTHY#2_74_u
+DOROTHY#2_126_u
+DOROTHY#2_129_u
+DOROTHY#2_604_u
+HOWARD#1_1296_u
+HOWARD#1_7641_u
+HOWARD#1_S10E08_140_u
+HOWARD#1_S11E04_347_u
+HOWARD#1_S11E08_142_u
+HOWARD#1_S12E22_066_u
+LEONARD#1_2075_u
+LEONARD#1_8159_u
+LEONARD#1_S11E08_005_u
+LEONARD#1_S11E08_005_u
+LEONARD#1_S12E07_060_u
+LEONARD#1_S12E23_470_u
+PENNY#1_5617_u
+PENNY#1_11697_u
+PENNY#1_12331_u
+PENNY#1_S09E01_027_u
+PENNY#1_S10E02_123_u
+PENNY#1_S10E07_247_u
+PENNY#1_S10E09_066_u
+PENNY#1_S12E01_332_u
+RAJ#1_8505_u
+RAJ#1_10857_u
+RAJ#1_S09E05_222_u
+RAJ#1_S11E19_030_u
+RAJ#1_S12E03_410_u
+RAJ#1_S12E21_261_u
+SHELDON#1_1144_u
+SHELDON#1_536_u
+SHELDON#1_2423_u
+SHELDON#1_2797_u
+SHELDON#1_3293_u
+SHELDON#1_4352_u
+SHELDON#1_6165_u
+SHELDON#1_6534_u
+SHELDON#1_6534_u
+SHELDON#1_9668_u
+SHELDON#1_10829_u
+SHELDON#1_10190_u -->
 
 <!-- <h2 id="abstract">Abstract</h2>
 <p></p>
@@ -78,35 +130,6 @@
 
 
 <h2>Denoised Effect</h2>
-<!-- <p>Text: It's just a privilege to watch your mind at work.</b></p> -->
-<!-- <table>
-  <thead>
-    <tr>
-      <th style="text-align: center"><strong>Text</strong></th>
-      <th style="text-align: center"><strong>Groundtruth</strong></th>
-      <th style="text-align: center"><strong>voicefixer</strong></th>
-      <th style="text-align: center"><strong>Adobe</strong></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">It's just a privilege to watch your mind at work.</td>
-      <td style="text-align: left"><audio src="audio/1_60.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="audio/Feb-22/voicefixer_mode0/1_60.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="audio/Feb-22/mmsd_adobe/1_60.wav" controls="" preload=""></audio></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">I don't think I'll be able to stop thinking about it.</td>
-      <td style="text-align: left"><audio src="audio/1_70.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="audio/Feb-22/voicefixer_mode0/1_70.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="audio/Feb-22/mmsd_adobe/1_70.wav" controls="" preload=""></audio></td>
-    </tr>
-  </tbody>
-</table>
-<br>
-<br> -->
-
-
 <table>
   <thead>
     <tr>
@@ -154,221 +177,62 @@
 
 
 
-<h3>CHANDLER</h3>
+<h3>AMY</h3>
 <table>
   <thead>
     <tr>
       <th style="text-align: center"><strong>Text</strong></th>
       <th style="text-align: center"><strong>Groundtruth</strong></th>
-      <th style="text-align: center"><strong>Baseline</strong></th>
-      <th style="text-align: center"><strong>two-stage Fine-tuned</strong></th>
-      <th style="text-align: center"><strong>Proposed</strong></th>
-      <!-- <th style="text-align: center"><strong>GPT-SoVITS</strong></th> -->
+      <th style="text-align: center"><strong>VITS</strong></th>
+      <th style="text-align: center"><strong>VITS+BERT</strong></th>
+      <th style="text-align: center"><strong>VITS+Llama</strong></th>
+      <th style="text-align: center"><strong>VITS+LoRA-Llama</strong></th>
+      <th style="text-align: center"><strong>VITS+LoRA-Llama+RAG</strong></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">That's a good one too Pheebs, now all that I have to do is find a plane load of people whose resolution is to plummet to their deaths</td>
-      <td style="text-align: left"><audio src="audio/sswdemo/gt/CHANDLER_2_2_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/baseline/CHANDLER_2_2_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/2stage/CHANDLER_2_2_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/proposed/CHANDLER_2_2_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left">Fine, I guess. I've been focusing on me.</td>
+      <td style="text-align: left"><audio src="synthesized/gt/AMY#1_S09E03_143_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits/AMY#1_S09E03_143_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits_bert/AMY#1_S09E03_143_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits_llama/AMY#1_S09E03_143_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits_lora/AMY#1_S09E03_143_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits_lora_rag/AMY#1_S09E03_143_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
     </tr>
     <tr>
-      <td style="text-align: left">I thought if I littered, that crying Indian might come by and save us.</td>
-      <td style="text-align: left"><audio src="audio/sswdemo/gt/CHANDLER_2_109_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/baseline/CHANDLER_2_109_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/2stage/CHANDLER_2_109_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/proposed/CHANDLER_2_109_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left">Well, Sheldon, I really appreciate that, but these things mean more to you than they do to me, so whatever you want.</td>
+      <td style="text-align: left"><audio src="synthesized/gt/AMY#1_S10E04_238_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits/AMY#1_S10E04_238_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits_bert/AMY#1_S10E04_238_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits_llama/AMY#1_S10E04_238_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits_lora/AMY#1_S10E04_238_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits_lora_rag/AMY#1_S10E04_238_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
     </tr>
     <tr>
-      <td style="text-align: left">Spanish midgets wrestling Julie! Okay yes I see how they got there.</td>
-      <td style="text-align: left"><audio src="audio/sswdemo/gt/CHANDLER_2_114_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/baseline/CHANDLER_2_114_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/2stage/CHANDLER_2_114_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/proposed/CHANDLER_2_114_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left">Okay, you can stop leading with that part of the story.</td>
+      <td style="text-align: left"><audio src="synthesized/gt/AMY#1_S11E01_100_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits/AMY#1_S11E01_100_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits_bert/AMY#1_S11E01_100_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits_llama/AMY#1_S11E01_100_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits_lora/AMY#1_S11E01_100_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits_lora_rag/AMY#1_S11E01_100_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
     </tr>
     <tr>
-      <td style="text-align: left">These people find out that a spelling game is going over there, there will be nobody left at our party.</td>
-      <td style="text-align: left"><audio src="audio/sswdemo/gt/CHANDLER_2_226_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/baseline/CHANDLER_2_226_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/2stage/CHANDLER_2_226_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/proposed/CHANDLER_2_226_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">You said you spent all that money because those boots go with skirts, dresses and pants. What do you plan on wearing? A Chicken suit?</td>
-      <td style="text-align: left"><audio src="audio/sswdemo/gt/CHANDLER_2_511_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/baseline/CHANDLER_2_511_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/2stage/CHANDLER_2_511_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/proposed/CHANDLER_2_511_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Okay, now much have you won so far?</td>
-      <td style="text-align: left"><audio src="audio/sswdemo/gt/CHANDLER_2_547_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/baseline/CHANDLER_2_547_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/2stage/CHANDLER_2_547_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/proposed/CHANDLER_2_547_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left">Oh, no, this is the rest of our lives.</td>
+      <td style="text-align: left"><audio src="synthesized/gt/AMY#1_S12E16_140_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits/AMY#1_S12E16_140_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits_bert/AMY#1_S12E16_140_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits_llama/AMY#1_S12E16_140_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits_lora/AMY#1_S12E16_140_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits_lora_rag/AMY#1_S12E16_140_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
   </tbody>
 </table>
 <br>
 <br>
 
 
-<h3>HOWARD</h3>
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center"><strong>Text</strong></th>
-      <th style="text-align: center"><strong>Groundtruth</strong></th>
-      <th style="text-align: center"><strong>Baseline</strong></th>
-      <th style="text-align: center"><strong>two-stage Fine-tuned</strong></th>
-      <th style="text-align: center"><strong>Proposed</strong></th>
-      <!-- <th style="text-align: center"><strong>GPT-SoVITS</strong></th> -->
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">They gave him an assistant? If I want a new pen, I have to go to the bank with wire cutters.</td>
-      <td style="text-align: left"><audio src="audio/sswdemo/gt/HOWARD_1_1296_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/baseline/HOWARD_1_1296_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/2stage/HOWARD_1_1296_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/proposed/HOWARD_1_1296_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-    <tr>
-      <td style="text-align: left">Sadly, Mrs. Giselle Wolowitz is sensitive to chlorine. Lucky for her I like my fashion models pruny and bug-eyed.</td>
-      <td style="text-align: left"><audio src="audio/sswdemo/gt/HOWARD_1_1478_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/baseline/HOWARD_1_1478_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/2stage/HOWARD_1_1478_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/proposed/HOWARD_1_1478_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Interesting. Maybe my male cycle synced up with raj's actual period.</td>
-      <td style="text-align: left"><audio src="audio/sswdemo/gt/HOWARD_1_S09E21_255_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/baseline/HOWARD_1_S09E21_255_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/2stage/HOWARD_1_S09E21_255_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/proposed/HOWARD_1_S09E21_255_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">No, she's right. As long as I've known you, you've always been self-conscious</td>
-      <td style="text-align: left"><audio src="audio/sswdemo/gt/HOWARD_1_S10E08_140_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/baseline/HOWARD_1_S10E08_140_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/2stage/HOWARD_1_S10E08_140_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/proposed/HOWARD_1_S10E08_140_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">What about people distracted by irritating passengers?</td>
-      <td style="text-align: left"><audio src="audio/sswdemo/gt/HOWARD_1_S11E04_347_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/baseline/HOWARD_1_S11E04_347_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/2stage/HOWARD_1_S11E04_347_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/proposed/HOWARD_1_S11E04_347_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">You were a terrible waitress, and we still asked you to get us a snack.</td>
-      <td style="text-align: left"><audio src="audio/sswdemo/gt/HOWARD_1_S11E06_410_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/baseline/HOWARD_1_S11E06_410_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/2stage/HOWARD_1_S11E06_410_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/proposed/HOWARD_1_S11E06_410_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-    </tr>
-  </tbody>
-</table>
-<br>
-<br>
 
-
-<h3>SHELDON</h3>
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center"><strong>Text</strong></th>
-      <th style="text-align: center"><strong>Groundtruth</strong></th>
-      <th style="text-align: center"><strong>Baseline</strong></th>
-      <th style="text-align: center"><strong>two-stage Fine-tuned</strong></th>
-      <th style="text-align: center"><strong>Proposed</strong></th>
-      <!-- <th style="text-align: center"><strong>GPT-SoVITS</strong></th> -->
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Just the latest copy of Applied Particle Physics quarterly.</td>
-      <td style="text-align: left"><audio src="audio/sswdemo/gt/SHELDON_1_536_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/baseline/SHELDON_1_536_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/2stage/SHELDON_1_536_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/proposed/SHELDON_1_536_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-    <tr>
-      <td style="text-align: left">Provided he has already read and is familiar with the reestablishment of the DC multiverse.</td>
-      <td style="text-align: left"><audio src="audio/sswdemo/gt/SHELDON_1_2423_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/baseline/SHELDON_1_2423_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/2stage/SHELDON_1_2423_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/proposed/SHELDON_1_2423_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">He does it all the time. He's a cornucopia of social awkwardness.</td>
-      <td style="text-align: left"><audio src="audio/sswdemo/gt/SHELDON_1_4352_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/baseline/SHELDON_1_4352_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/2stage/SHELDON_1_4352_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/proposed/SHELDON_1_4352_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">No, but maybe she wants a man with a pocket watch.</td>
-      <td style="text-align: left"><audio src="audio/sswdemo/gt/SHELDON_1_6534_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/baseline/SHELDON_1_6534_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/2stage/SHELDON_1_6534_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/proposed/SHELDON_1_6534_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Oh, sure, what a wonderful idea. And after that, I'll make up my own rules of oral hygiene. You know, instead of flossing, I'll rub pudding on my gums. I'm going to get the number of the SyFy Channel and give them what for.</td>
-      <td style="text-align: left"><audio src="audio/sswdemo/gt/SHELDON_1_8407_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/baseline/SHELDON_1_8407_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/2stage/SHELDON_1_8407_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/proposed/SHELDON_1_8407_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Well, now that I've given up string theory, I'm struggling to find my next area of focus. So, in your professional opinion, which of these areas do you think is the most promising?</td>
-      <td style="text-align: left"><audio src="audio/sswdemo/gt/SHELDON_1_10190_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/baseline/SHELDON_1_10190_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/2stage/SHELDON_1_10190_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/sswdemo/proposed/SHELDON_1_10190_u.wav" controls="" preload="" style="width: 200px;"></audio></td>
-    </tr>
-  </tbody>
-</table>
-<br>
-<br>
-
-<!-- <h3>Unseen Texts</h3>
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center"><strong>Text</strong></th>
-      <th style="text-align: center"><strong>Pre-FS2</strong></th>
-      <th style="text-align: center"><strong>FT-FS2(all)</strong></th>
-      <th style="text-align: center"><strong>FT-FS2(sarcastic)</strong></th>
-      <th style="text-align: center"><strong>FT-FS2-w/-bert</strong></th>
-      <th style="text-align: center"><strong>FT-FS2-w/-ref</strong></th>
-      <th style="text-align: center"><strong>FT-FS2-w/-ref-w/bf</strong></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">(non-sarcastic)size on the the toulouse team that pack be monstrous i cant see a welsh region ever win this money talk a they say</td>
-      <td style="text-align: left"><audio src="audio/June-14/pretrain/0_0.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="audio/June-14/all/0_0.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="audio/June-14/sarcastic/0_0.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="audio/June-14/bert/0_0.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="audio/June-14/ref/0_0.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="audio/June-14/fb/0_0.wav" controls="" preload=""></audio></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">(sarcastic)so the scottish government want people to get their booster shot so badly that the website doesnt even work</td>
-      <td style="text-align: left"><audio src="audio/June-14/pretrain/0_1.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="audio/June-14/all/0_1.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="audio/June-14/sarcastic/0_1.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="audio/June-14/bert/0_1.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="audio/June-14/ref/0_1.wav" controls="" preload=""></audio></td>
-      <td style="text-align: left"><audio src="audio/June-14/fb/0_1.wav" controls="" preload=""></audio></td>
-    </tr>
-  </tbody>
-</table>
-<br>
-<br> -->
 
       <footer class="site-footer">
         <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com/">GitHub Pages</a>.</span>
