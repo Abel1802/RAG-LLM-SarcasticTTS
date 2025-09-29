@@ -2,7 +2,7 @@ import os
 import glob
 
 # 指定目录
-folder = 'vits_lora_rag'
+folder = 'vits_rag'
 
 # 遍历所有 .wav 文件
 for filepath in glob.glob(os.path.join(folder, '*.wav')):
