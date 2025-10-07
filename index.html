@@ -32,43 +32,6 @@
 <br>
 
 
-<style>
-table {
-  width: 100%;
-  border-collapse: collapse;
-  table-layout: fixed;
-}
-th, td {
-  text-align: center;
-  padding: 8px;
-  border-bottom: 1px solid #ddd;
-}
-th {
-  background-color: #f5f5f5;
-  font-weight: 600;
-}
-td:first-child {
-  text-align: left;
-  width: 400px;
-  word-wrap: break-word;
-}
-audio {
-  width: 130px;
-}
-</style>
-
-
-<colgroup>
-  <col style="width: 400px;"> <!-- Text -->
-  <col style="width: 130px;">
-  <col style="width: 130px;">
-  <col style="width: 130px;">
-  <col style="width: 130px;">
-  <col style="width: 130px;">
-  <col style="width: 130px;">
-  <col style="width: 130px;">
-</colgroup>
-
 <!-- AMY#1_S09E03_143_u
 AMY#1_S10E04_238_u
 AMY#1_S11E01_100_u
@@ -192,23 +155,12 @@ SHELDON#1_10190_u -->
 <br> -->
 
 <h2>Abstract</h2>
+<p>
+Sarcasm is a subtle form of non-literal language that poses significant challenges for speech synthesis due to its reliance on nuanced semantic, contextual, and prosodic cues. While existing speech synthesis research has focused primarily on broad emotional categories, sarcasm remains largely unexplored. In this paper, we propose a LLM-enhanced Retrieval-Augmented framework for sarcasm-aware speech synthesis. Our approach combines (1) semantic embeddings from a LoRA-fine-tuned LLaMA 3, which capture pragmatic incongruity and discourse-level cues of sarcasm, and (2) prosodic exemplars retrieved via a RAG module, which provide expressive reference patterns of sarcastic delivery. Integrated within a VITS backbone, this dual conditioning enables more natural and contextually appropriate sarcastic speech. Experiments demonstrate that our method outperforms baselines in both objective measures and subjective evaluations, yielding improvements in speech naturalness, sarcastic expressivity, and downstream sarcasm detection. 
+</p>
+
 
 <a name="2"><h2>Evaluation</h2></a>
-<p>
-<!-- <b>Groundtruth</b>: the groundtruth speech. <br>
-<b>FastSpeech 2(Baseline)</b>: </br> -->
-<!-- <b>FT-FS2(sarcastic)</b>: the generated speech by Fine-tuned FastSpeech2 on MUSARD_Plus_Plus sarcastic data. <br> -->
-<!-- <b>FT-FS2-w/-bert</b>: the generated speech by Fine-tuned FastSpeech2 on MUSARD_Plus_Plus with <b>bert embedding</b>. <br> -->
-<!-- <b>GPT-SoVITS</b>: </br>
-<b>Proposed</b>:  </br> -->
-<!-- <b>VALL-E</b>: use the open-source implementation of VALL-E but use SpeechTokenizer as audio codec instead of Encodec.  <br>
-<b>SoundStorm</b>: only use AR stage of above VALL-E model and replace the NAR stage with same SoundStorm model as ours.  <br>
-<b>XTTS</b>: an open-source zero-shot TTS similar to TortoiseTTS, based on a discrete VAE model as audio codec and also use AR model, but it use fixed length vectors for speaker conditioning via Perceiver model. <br>
-<b>Proposed-w/o-context</b>: our proposed method without MMCE-Qformer. <br>
-<b>Proposed-w/-text</b>: our proposed method using only text context. <br>
-<b>Proposed-w/-audio</b>: our proposed method using audio context. <br>
-<b>Proposed</b>: our proposed method using MMCE-Qformer with multi-modal context. <br> -->
-</p>
 
 <h3>Model Descriptions</h3>
 <ul style="line-height: 1.6; font-size: 15px;">
@@ -221,8 +173,55 @@ SHELDON#1_10190_u -->
 </ul>
 
 
+
+<style>
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+th, td {
+  text-align: center;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+}
+td:first-child {
+  text-align: left;
+  word-wrap: break-word;
+}
+audio {
+  width: 130px;
+}
+</style>
+
+
+<colgroup>
+  <col style="width: 400px;"> <!-- Text -->
+  <col style="width: 130px;">
+  <col style="width: 130px;">
+  <col style="width: 130px;">
+  <col style="width: 130px;">
+  <col style="width: 130px;">
+  <col style="width: 130px;">
+  <col style="width: 130px;">
+</colgroup>
+
+
 <h3>Speaker: AMY</h3>
 <table>
+    <colgroup>
+      <col style="width: 400px;">
+      <col style="width: 130px;">
+      <col style="width: 130px;">
+      <col style="width: 130px;">
+      <col style="width: 130px;">
+      <col style="width: 130px;">
+      <col style="width: 130px;">
+      <col style="width: 130px;">
+    </colgroup>
   <thead>
     <tr>
       <th><strong>Text</strong></th>
