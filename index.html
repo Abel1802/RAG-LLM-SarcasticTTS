@@ -31,6 +31,33 @@
 <center> University of Groningen, the Netherlands</center>
 <br>
 
+
+<style>
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed !important; /* 强制固定布局 */
+  word-wrap: break-word;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 6px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #f5f5f5;
+}
+
+td:first-child {
+  width: 400px !important; /* 固定 text 列宽 */
+  white-space: normal !important;
+  word-break: break-word;
+}
+</style>
+
 <!-- AMY#1_S09E03_143_u
 AMY#1_S10E04_238_u
 AMY#1_S11E01_100_u
@@ -361,14 +388,14 @@ SHELDON#1_10190_u -->
 <table>
   <thead>
     <tr>
-      <th style="text-align: center; width: 200px;"><strong>Text</strong></th>
-      <th style="text-align: center; width: 200px;"><strong>Groundtruth</strong></th>
-      <th style="text-align: center; width: 200px;"><strong>VITS</strong></th>
-      <th style="text-align: center; width: 200px;"><strong>VITS+BERT</strong></th>
-      <th style="text-align: center; width: 200px;"><strong>VITS+Llama</strong></th>
-      <th style="text-align: center; width: 200px;"><strong>VITS+LoRA-Llama</strong></th>
-      <th style="text-align: center; width: 200px;"><strong>VITS+RAG</strong></th>
-      <th style="text-align: center; width: 200px;"><strong>VITS+LoRA-Llama+RAG</strong></th>
+      <th style="text-align: center; width: 400px;"><strong>Text</strong></th>
+      <th style="text-align: center; width: 150px;"><strong>GT</strong></th>
+      <th style="text-align: center; width: 150px;"><strong>VITS</strong></th>
+      <th style="text-align: center; width: 150px;"><strong>w/ BERT</strong></th>
+      <th style="text-align: center; width: 150px;"><strong>w/ LLaMA 3</strong></th>
+      <th style="text-align: center; width: 150px;"><strong>w/ LoRA</strong></th>
+      <th style="text-align: center; width: 150px;"><strong>w/ RAG</strong></th>
+      <th style="text-align: center; width: 150px;"><strong>Proposed</strong></th>
     </tr>
   </thead>
   <tbody>
@@ -422,14 +449,14 @@ SHELDON#1_10190_u -->
 <table>
   <thead>
     <tr>
-      <th style="text-align: center; width: 200px;"><strong>Text</strong></th>
-      <th style="text-align: center; width: 200px;"><strong>Groundtruth</strong></th>
-      <th style="text-align: center; width: 200px;"><strong>VITS</strong></th>
-      <th style="text-align: center; width: 200px;"><strong>VITS+BERT</strong></th>
-      <th style="text-align: center; width: 200px;"><strong>VITS+Llama</strong></th>
-      <th style="text-align: center; width: 200px;"><strong>VITS+LoRA-Llama</strong></th>
-      <th style="text-align: center; width: 200px;"><strong>VITS+RAG</strong></th>
-      <th style="text-align: center; width: 200px;"><strong>VITS+LoRA-Llama+RAG</strong></th>
+      <th style="text-align: center; width: 400px;"><strong>Text</strong></th>
+      <th style="text-align: center; width: 150px;"><strong>GT</strong></th>
+      <th style="text-align: center; width: 150px;"><strong>VITS</strong></th>
+      <th style="text-align: center; width: 150px;"><strong>w/ BERT</strong></th>
+      <th style="text-align: center; width: 150px;"><strong>w/ LLaMA 3</strong></th>
+      <th style="text-align: center; width: 150px;"><strong>w/ LoRA</strong></th>
+      <th style="text-align: center; width: 150px;"><strong>w/ RAG</strong></th>
+      <th style="text-align: center; width: 150px;"><strong>Proposed</strong></th>
     </tr>
   </thead>
   <tbody>
