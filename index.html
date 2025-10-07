@@ -86,78 +86,14 @@ SHELDON#1_9668_u
 SHELDON#1_10829_u
 SHELDON#1_10190_u -->
 
-<!-- <h2 id="abstract">Abstract</h2>
-<p></p>
-
-<h2><p class="toc_title">Contents</p></h2>
-<div id="toc_container">
-<ul>
-  <li><a href="#1">Model Architecture</a></li>
-  <li><a href="#2">LibriTTS Evaluation</a></li>
-  <li><a href="#3">IEMOCAP Evaluation</a></li>
-</ul>
-</div> -->
-
-<!-- <a name="1"><h2>Model Architecture</h2></a>
-<div>
-  <br />
-  <p style="text-align: center">
-    <img src="./overview.png" width="900" height="320"/>
-  </p>
-  <p>
-  <figcaption style="text-align:center;">
-    </font>
-    <font size=3>
-      Figure 1: The overview of our proposed model.
-    </font>
-  </figcaption><br><br>
-  </p>
-
-  <br />
-  <p style="text-align: center">
-    <img src="./context_model.png" width="1000" height="350" />
-  </p>
-  <p>
-  <figcaption style="text-align:center;">
-    </font>
-    <font size=3>
-      Figure 2: The structure of MMCE-Qformer encoder.
-    </font>
-  </figcaption><br><br>
-  </p>
-</div> -->
-
-
-
-<!-- <h2>Denoised Effect</h2> -->
-<!-- <table>
-  <thead>
-    <tr>
-      <th style="text-align: center"><strong>Text</strong></th>
-      <th style="text-align: center"><strong>Groundtruth</strong></th>
-      <th style="text-align: center"><strong>Denoised</strong></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">It's just a privilege to watch your mind at work.</td>
-      <td style="text-align: left"><audio src="audio/1_60.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/Feb-22/mmsd_adobe/1_60.wav" controls="" preload="" style="width: 200px;"></audio></td>
-    </tr>
-    <tr>
-      <td style="text-align: left">I don't think I'll be able to stop thinking about it.</td>
-      <td style="text-align: left"><audio src="audio/1_70.wav" controls="" preload="" style="width: 200px;"></audio></td>
-      <td style="text-align: left"><audio src="audio/Feb-22/mmsd_adobe/1_70.wav" controls="" preload="" style="width: 200px;"></audio></td>
-    </tr>
-  </tbody>
-</table> -->
-<!-- <br>
-<br> -->
 
 <h2>Abstract</h2>
 <p style="font-size: 15px;">
 Sarcasm is a subtle form of non-literal language that poses significant challenges for speech synthesis due to its reliance on nuanced semantic, contextual, and prosodic cues. While existing speech synthesis research has focused primarily on broad emotional categories, sarcasm remains largely unexplored. In this paper, we propose a LLM-enhanced Retrieval-Augmented framework for sarcasm-aware speech synthesis. Our approach combines (1) semantic embeddings from a LoRA-fine-tuned LLaMA 3, which capture pragmatic incongruity and discourse-level cues of sarcasm, and (2) prosodic exemplars retrieved via a RAG module, which provide expressive reference patterns of sarcastic delivery. Integrated within a VITS backbone, this dual conditioning enables more natural and contextually appropriate sarcastic speech. Experiments demonstrate that our method outperforms baselines in both objective measures and subjective evaluations, yielding improvements in speech naturalness, sarcastic expressivity, and downstream sarcasm detection. 
 </p>
+
+
+<h2>Model Architecture</h2>
 
 
 <a name="2"><h2>Evaluation</h2></a>
@@ -176,7 +112,7 @@ Sarcasm is a subtle form of non-literal language that poses significant challeng
 
 <style>
 table {
-  width: 100%;
+  /* width: 100%; */
   border-collapse: collapse;
   table-layout: fixed;
 }
