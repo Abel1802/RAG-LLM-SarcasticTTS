@@ -155,7 +155,7 @@ SHELDON#1_10190_u -->
 <br> -->
 
 <h2>Abstract</h2>
-<p>
+<p style="font-size: 15px;">
 Sarcasm is a subtle form of non-literal language that poses significant challenges for speech synthesis due to its reliance on nuanced semantic, contextual, and prosodic cues. While existing speech synthesis research has focused primarily on broad emotional categories, sarcasm remains largely unexplored. In this paper, we propose a LLM-enhanced Retrieval-Augmented framework for sarcasm-aware speech synthesis. Our approach combines (1) semantic embeddings from a LoRA-fine-tuned LLaMA 3, which capture pragmatic incongruity and discourse-level cues of sarcasm, and (2) prosodic exemplars retrieved via a RAG module, which provide expressive reference patterns of sarcastic delivery. Integrated within a VITS backbone, this dual conditioning enables more natural and contextually appropriate sarcastic speech. Experiments demonstrate that our method outperforms baselines in both objective measures and subjective evaluations, yielding improvements in speech naturalness, sarcastic expressivity, and downstream sarcasm detection. 
 </p>
 
@@ -176,6 +176,7 @@ Sarcasm is a subtle form of non-literal language that poses significant challeng
 
 <style>
 table {
+  width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
 }
@@ -198,29 +199,11 @@ audio {
 </style>
 
 
-<colgroup>
-  <col style="width: 400px;"> <!-- Text -->
-  <col style="width: 130px;">
-  <col style="width: 130px;">
-  <col style="width: 130px;">
-  <col style="width: 130px;">
-  <col style="width: 130px;">
-  <col style="width: 130px;">
-  <col style="width: 130px;">
-</colgroup>
-
-
 <h3>Speaker: AMY</h3>
 <table>
     <colgroup>
       <col style="width: 400px;">
-      <col style="width: 130px;">
-      <col style="width: 130px;">
-      <col style="width: 130px;">
-      <col style="width: 130px;">
-      <col style="width: 130px;">
-      <col style="width: 130px;">
-      <col style="width: 130px;">
+      <col style="width: 130px;" span="7">
     </colgroup>
   <thead>
     <tr>
@@ -237,43 +220,43 @@ audio {
   <tbody>
     <tr>
       <td>Fine, I guess. I've been focusing on me.</td>
-      <td style="text-align: left"><audio src="synthesized/gt/AMY_1_S09E03_143_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-      <td style="text-align: left"><audio src="synthesized/vits/AMY_1_S09E03_143_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-      <td style="text-align: left"><audio src="synthesized/vits_bert/AMY_1_S09E03_143_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-      <td style="text-align: left"><audio src="synthesized/vits_llama/AMY_1_S09E03_143_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-      <td style="text-align: left"><audio src="synthesized/vits_lora/AMY_1_S09E03_143_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-      <td style="text-align: left"><audio src="synthesized/vits_rag/AMY_1_S09E03_143_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-      <td style="text-align: left"><audio src="synthesized/vits_lora_rag/AMY_1_S09E03_143_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
+      <td style="text-align: left"><audio src="synthesized/gt/AMY_1_S09E03_143_u.wav" controls preload></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits/AMY_1_S09E03_143_u.wav" controls preload></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits_bert/AMY_1_S09E03_143_u.wav" controls preload></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits_llama/AMY_1_S09E03_143_u.wav" controls preload></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits_lora/AMY_1_S09E03_143_u.wav" controls preload></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits_rag/AMY_1_S09E03_143_u.wav" controls preload></audio></td>
+      <td style="text-align: left"><audio src="synthesized/vits_lora_rag/AMY_1_S09E03_143_u.wav" controls preload></audio></td>
     </tr>
     <tr>
         <td>Well, Sheldon, I really appreciate that, but these things mean more to you than they do to me, so whatever you want.</td>
-        <td style="text-align: left"><audio src="synthesized/gt/AMY_1_S10E04_238_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-        <td style="text-align: left"><audio src="synthesized/vits/AMY_1_S10E04_238_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-        <td style="text-align: left"><audio src="synthesized/vits_bert/AMY_1_S10E04_238_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-        <td style="text-align: left"><audio src="synthesized/vits_llama/AMY_1_S10E04_238_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-        <td style="text-align: left"><audio src="synthesized/vits_lora/AMY_1_S10E04_238_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-        <td style="text-align: left"><audio src="synthesized/vits_rag/AMY_1_S10E04_238_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-        <td style="text-align: left"><audio src="synthesized/vits_lora_rag/AMY_1_S10E04_238_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
+        <td style="text-align: left"><audio src="synthesized/gt/AMY_1_S10E04_238_u.wav" controls preload></audio></td>
+        <td style="text-align: left"><audio src="synthesized/vits/AMY_1_S10E04_238_u.wav" controls preload></audio></td>
+        <td style="text-align: left"><audio src="synthesized/vits_bert/AMY_1_S10E04_238_u.wav" controls preload></audio></td>
+        <td style="text-align: left"><audio src="synthesized/vits_llama/AMY_1_S10E04_238_u.wav" controls preload></audio></td>
+        <td style="text-align: left"><audio src="synthesized/vits_lora/AMY_1_S10E04_238_u.wav" controls preload></audio></td>
+        <td style="text-align: left"><audio src="synthesized/vits_rag/AMY_1_S10E04_238_u.wav" controls preload></audio></td>
+        <td style="text-align: left"><audio src="synthesized/vits_lora_rag/AMY_1_S10E04_238_u.wav" controls preload></audio></td>
     </tr>
     <tr>
         <td>Okay, you can stop leading with that part of the story.</td>
-        <td style="text-align: left"><audio src="synthesized/gt/AMY_1_S11E01_100_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-        <td style="text-align: left"><audio src="synthesized/vits/AMY_1_S11E01_100_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-        <td style="text-align: left"><audio src="synthesized/vits_bert/AMY_1_S11E01_100_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-        <td style="text-align: left"><audio src="synthesized/vits_llama/AMY_1_S11E01_100_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-        <td style="text-align: left"><audio src="synthesized/vits_lora/AMY_1_S11E01_100_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-        <td style="text-align: left"><audio src="synthesized/vits_rag/AMY_1_S11E01_100_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-        <td style="text-align: left"><audio src="synthesized/vits_lora_rag/AMY_1_S11E01_100_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
+        <td style="text-align: left"><audio src="synthesized/gt/AMY_1_S11E01_100_u.wav" controls preload></audio></td>
+        <td style="text-align: left"><audio src="synthesized/vits/AMY_1_S11E01_100_u.wav" controls preload></audio></td>
+        <td style="text-align: left"><audio src="synthesized/vits_bert/AMY_1_S11E01_100_u.wav" controls preload></audio></td>
+        <td style="text-align: left"><audio src="synthesized/vits_llama/AMY_1_S11E01_100_u.wav" controls preload></audio></td>
+        <td style="text-align: left"><audio src="synthesized/vits_lora/AMY_1_S11E01_100_u.wav" controls preload></audio></td>
+        <td style="text-align: left"><audio src="synthesized/vits_rag/AMY_1_S11E01_100_u.wav" controls preload></audio></td>
+        <td style="text-align: left"><audio src="synthesized/vits_lora_rag/AMY_1_S11E01_100_u.wav" controls preload></audio></td>
     </tr>
     <tr>
         <td>Oh, no, this is the rest of our lives.</td>
-        <td style="text-align: left"><audio src="synthesized/gt/AMY_1_S12E16_140_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-        <td style="text-align: left"><audio src="synthesized/vits/AMY_1_S12E16_140_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-        <td style="text-align: left"><audio src="synthesized/vits_bert/AMY_1_S12E16_140_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-        <td style="text-align: left"><audio src="synthesized/vits_llama/AMY_1_S12E16_140_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-        <td style="text-align: left"><audio src="synthesized/vits_lora/AMY_1_S12E16_140_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-        <td style="text-align: left"><audio src="synthesized/vits_rag/AMY_1_S12E16_140_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
-        <td style="text-align: left"><audio src="synthesized/vits_lora_rag/AMY_1_S12E16_140_u.wav" controls="" preload="" style="width: 150px;"></audio></td>
+        <td style="text-align: left"><audio src="synthesized/gt/AMY_1_S12E16_140_u.wav" controls preload></audio></td>
+        <td style="text-align: left"><audio src="synthesized/vits/AMY_1_S12E16_140_u.wav" controls preload></audio></td>
+        <td style="text-align: left"><audio src="synthesized/vits_bert/AMY_1_S12E16_140_u.wav" controls preload></audio></td>
+        <td style="text-align: left"><audio src="synthesized/vits_llama/AMY_1_S12E16_140_u.wav" controls preload></audio></td>
+        <td style="text-align: left"><audio src="synthesized/vits_lora/AMY_1_S12E16_140_u.wav" controls preload></audio></td>
+        <td style="text-align: left"><audio src="synthesized/vits_rag/AMY_1_S12E16_140_u.wav" controls preload></audio></td>
+        <td style="text-align: left"><audio src="synthesized/vits_lora_rag/AMY_1_S12E16_140_u.wav" controls preload></audio></td>
     </tr>
   </tbody>
 </table>
